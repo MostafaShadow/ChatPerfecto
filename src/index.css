@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  box-sizing: border-box;
+  font-family: "Cairo", sans-serif;
+  overflow: hidden !important;
+}
+
+:root {
+  --RdeiusImg: 50%;
+}
+
+.message-sent {
+  justify-content: start;
+}
+.message-sent .message-bg {
+  background-color: #ac83ff;
+  color: #fff;
+}
+
+.message-sent .message-bg h5 {
+  color: #6d61d2;
+}
+.message-resevid {
+  justify-content: end;
+}
+
+.message-resevid .message-bg {
+  background-color: #f7f7f7;
+  border: 1px solid rgba(102, 102, 102, 0.397);
+  color: #000 !important;
+}
